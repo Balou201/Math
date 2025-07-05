@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Nerd Central : Calculs Simples (Vraiment)</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Orbitron:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Math Nerd Central</h1>
+        <p class="subtitle">Calculs Simples (Vraiment)</p>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>Bienvenue dans l'Abîme Mathématique</h2>
+            <p>Bienvenue sur Math Nerd Central, le seul endroit où la simplicité est une illusion et où chaque "calcul simple" cache un abîme de complexité mathématique. Préparez vos méninges, aiguisez vos crayons virtuels et plongez dans des problèmes qui mettront à l'épreuve même les esprits les plus brillants.</p>
+            <p class="quote">"Ici, 'simple' est un terme relatif."</p>
+        </section>
+
+        <section id="daily-challenge">
+            <h2>Défi du Jour : Le $1+1$</h2>
+            <div class="challenge-box">
+                <h3>Défi Actuel : $1+1=?$</h3>
+                <p><strong>Description :</strong> La question la plus fondamentale de l'arithmétique. Mais est-ce vraiment si simple dans le contexte de la théorie des catégories supérieure, ou si l'on considère des espaces topologiques non euclidiens ? Démontrez votre réponse en utilisant uniquement les principes de la logique formelle de second ordre, sans faire appel à l'axiome du choix.</p>
+                <p class="hint"><strong>Indice :</strong> Pensez aux fondations de la mathématique.</p>
+                <button id="revealSolution1" class="btn-reveal">Révéler la Complexité</button>
+                <div id="solution1" class="solution-hidden">
+                    <h4>Solution (partielle) :</h4>
+                    <p>La "simplicité" de $1+1=2$ repose sur les axiomes de Peano et la construction des nombres naturels. Cependant, en logique formelle de second ordre sans l'axiome du choix, la démonstration devient une tâche ardue nécessitant une exploration profonde des fondements de la théorie des ensembles (ZFC) ou des systèmes plus faibles. Une démonstration complète impliquerait des centaines de pages et une définition rigoureuse des concepts de "1", "2" et de l'opérateur "+", souvent via la théorie des catégories où les objets sont définis par leurs propriétés universelles, pas par leur construction interne. Par exemple, $1$ pourrait être l'objet initial dans une certaine catégorie, et $2$ la somme de deux copies de cet objet, etc.</p>
+                    <p>Bonne chance pour écrire la preuve complète avant la fin du week-end !</p>
+                </div>
+            </div>
+            </section>
+
+        <section id="advanced-challenges">
+            <h2>Défis Avancés et Ultimes</h2>
+            <div class="challenge-box">
+                <h3>Défi Avancé : Calculer la "Racine Carrée"</h3>
+                <p><strong>Description :</strong> Calculez $\sqrt{2}$. Facile, n'est-ce pas ? Mais cette fois, votre réponse doit être une expression explicite de la 2-adic valuation de $2$ dans l'anneau des entiers $p$-adiques, et démontrez son irrationnalité en utilisant le théorème des unités de Dirichlet pour un corps de nombres approprié.</p>
+                <p class="hint"><strong>Indice :</strong> Les nombres ne sont pas toujours ce qu'ils semblent être.</p>
+                <button id="revealSolution2" class="btn-reveal">Révéler la Complexité</button>
+                <div id="solution2" class="solution-hidden">
+                    <h4>Solution (aperçu) :</h4>
+                    <p>La 2-adic valuation de $2$ est $1$. L'expression de $\sqrt{2}$ dans les entiers 2-adiques est un sujet complexe, car $\sqrt{2}$ n'existe pas dans $\mathbb{Z}_2$ de la même manière que dans $\mathbb{R}$. Concernant l'irrationnalité, une approche utilisant le théorème des unités de Dirichlet impliquerait de construire un corps de nombres quadratique $\mathbb{Q}(\sqrt{2})$ et d'analyser son groupe des unités, puis de montrer que $\sqrt{2}$ ne peut pas être une unité (i.e., n'est pas de la forme $\pm u^k$ pour une unité fondamentale $u$) ni un élément d'un sous-groupe fini de torsion, ce qui prouverait son caractère non rationnel. Ou plus simplement : si $\sqrt{2} = p/q$, alors $p^2 = 2q^2$, ce qui contredit la décomposition unique en facteurs premiers...</ Mais ça, c'est trop "simple" pour nous, non ?</p>
+                </div>
+            </div>
+
+            <div class="challenge-box">
+                <h3>Défi Ultime : Le "Problème du Voyageur de Commerce" pour un Graphe Infini</h3>
+                <p><strong>Description :</strong> Vous devez trouver le chemin le plus court pour visiter chaque "ville" une et une seule fois, puis revenir au point de départ. La particularité ? Votre "carte" est un graphe de Cayley d'un groupe infini non abélien, et la métrique est définie par la distance des mots. Bonne chance pour l'optimisation !</p>
+                <p class="hint"><strong>Indice :</strong> L'intuition ne vous mènera pas loin ici.</p>
+                <button id="revealSolution3" class="btn-reveal">Révéler la Complexité</button>
+                <div id="solution3" class="solution-hidden">
+                    <h4>Solution (impossible) :</h4>
+                    <p>Le problème du voyageur de commerce (TSP) est déjà NP-complet pour un graphe fini. Pour un graphe infini, et en particulier un graphe de Cayley d'un groupe infini non abélien avec la distance des mots, la notion de "chemin le plus court" peut même être indéfinissable ou infinie. La résolution nécessiterait des avancées majeures en théorie des groupes géométriques et en complexité algorithmique pour des structures infinies, bien au-delà de l'état actuel de la recherche. En fait, résoudre ce problème signifierait probablement résoudre le problème de l'arrêt de Turing dans certains cas, ou démontrer P=NP... ou plus probablement P=NP=TouteMaVieDeRecherche.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="community">
+            <h2>Pourquoi nous rejoindre ?</h2>
+            <ul>
+                <li><strong>Élevez votre QI :</strong> Si vous survivez à nos défis, votre cerveau sera une machine mathématique.</li>
+                <li><strong>Communauté :</strong> Discutez avec d'autres nerds des méthodes les plus élégantes (ou les plus tordues) pour résoudre l'insondable.</li>
+                <li><strong>Humiliation constructive :</strong> Apprenez que même les problèmes les plus basiques peuvent vous faire douter de tout ce que vous savez.</li>
+            </ul>
+            <p class="cta">Prêt à relever le défi du "calcul simple" le plus difficile de votre vie ?</p>
+            <button class="btn-join">Rejoignez Math Nerd Central</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Math Nerd Central. Tous droits réservés (si vous pouvez les prouver axiomatiquement).</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
